@@ -57,7 +57,6 @@ function styles() {
 function scripts() {
     return src([
         'node_modules/slick-carousel/slick/slick.js',
-        'app/countdown/assets/countdown/jquery.countdown.js',
         'app/flipclock/FlipClock-0.7.7/compiled/flipclock.js',
         'app/js/main.js'
     ])
